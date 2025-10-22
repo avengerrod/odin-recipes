@@ -45,16 +45,24 @@ a{
 }
 
 .navbar-links{
+<<<<<<< HEAD
   flex: 1;
   padding: 0px 20px;
 }
 
 .link-list{
+=======
+>>>>>>> 1d3b77634f332438bfdccda15b8680529046c48f
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+<<<<<<< HEAD
   /* flex: 0 0 auto; */
+=======
+  flex: 1;
+  padding: 0px 20px;
+>>>>>>> 1d3b77634f332438bfdccda15b8680529046c48f
   gap: 0px 20px;
 }
 
@@ -97,10 +105,13 @@ a{
   display: flex;
   flex-direction: column;
   text-align: center;
+<<<<<<< HEAD
   flex-shrink: 0;
   padding: 10px;
   gap: 10px;
   max-width: 250px;
+=======
+>>>>>>> 1d3b77634f332438bfdccda15b8680529046c48f
 }
 
 .footer {
