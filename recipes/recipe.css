@@ -1,0 +1,56 @@
+.meal-card {
+  background-color: sandybrown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid transparent;
+}
+
+.meal-img{
+  border-radius: 5%;
+  max-width: 100%;
+  width: auto;
+  /* height: auto; */
+  max-height: 800px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display:block;
+}
+
+.meal-info {
+  font-size: 20px;
+  text-align: center;
+}
+
+.procedure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  flex: 1 1 200px;
+}
+
+.prc-center {
+  display: block;
+  align-items: flex-start;
+  max-width: 950px;
+  margin: 24px;
+  flex: 0 1 auto;
+}
+
+.meal-heading {
+  text-align: left;
+  margin: 10px 20px;
+}
+
+.recipe-list {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 16px;
+}
